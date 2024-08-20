@@ -33,7 +33,7 @@ public class ProductManager
         }
 
     }
- 
+   
     public void DeleteProduct(int productId)
 
     {
@@ -57,6 +57,8 @@ public class ProductManager
         return products.Find(p => p.Id == productId);
 
     }
+  
+    
 
 }
 
