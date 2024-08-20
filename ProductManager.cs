@@ -10,7 +10,11 @@ public class ProductManager
 
     {
 
-        products.Add(product);
+        if (products.Any(p => p.Id == product.Id))
+        {
+            throw new DuplicateProductException("Product with the same ID already exists.");
+        }
+    products.Add(product);
 
     }
  
@@ -38,15 +42,12 @@ public class ProductManager
 
     {
 
-        var product = products.Find(p => p.Id == productId);
-
-        if (product != null)
-
+       var product = products.Find(p => p.Id == productId);
+        if (product == null)
         {
-
-            products.Remove(product);
-
+            throw new ProductNotFoundException("Product not found.");
         }
+        products.Remove(product);
 
     }
  
@@ -57,7 +58,15 @@ public class ProductManager
         return products.Find(p => p.Id == productId);
 
     }
-  
+  public void AddCategory(Category category)
+{
+    categories.Add(category);
+}
+ 
+public List<Product> GetProductsByCategory(int categoryId)
+{
+    return products.Where(p => p.CategoryId == categoryId).ToList();
+}
     
 
 }
