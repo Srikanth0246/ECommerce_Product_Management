@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\AbdullahMansuri\\.nuget\\packages\\": {}
+    "C:\\Users\\PrashanthGanegoni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\ECommerce_Product_Management\\ECommerce.csproj",
+      "projectUniqueName": "C:\\Users\\PrashanthGanegoni\\Downloads\\ECommerce_Product_Management-main\\ECommerce_Product_Management-1\\ECommerce.csproj",
       "projectName": "ECommerce",
-      "projectPath": "D:\\Project\\ECommerce_Product_Management\\ECommerce.csproj",
-      "packagesPath": "C:\\Users\\AbdullahMansuri\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\ECommerce_Product_Management\\obj\\",
+      "projectPath": "C:\\Users\\PrashanthGanegoni\\Downloads\\ECommerce_Product_Management-main\\ECommerce_Product_Management-1\\ECommerce.csproj",
+      "packagesPath": "C:\\Users\\PrashanthGanegoni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PrashanthGanegoni\\Downloads\\ECommerce_Product_Management-main\\ECommerce_Product_Management-1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AbdullahMansuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PrashanthGanegoni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
