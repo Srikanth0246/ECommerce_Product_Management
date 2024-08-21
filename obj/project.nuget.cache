@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x9vggPPQy+s=",
+  "dgSpecHash": "0aXzhrjkMPg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SrikanthTippasani\\ECommerce\\ECommerce_Product_Management\\ECommerce.csproj",
+  "projectFilePath": "C:\\Users\\PrashanthGanegoni\\Downloads\\ECommerce_Product_Management-main (1)\\ECommerce_Product_Management-main\\ECommerce_Product_Management\\ECommerce.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\SrikanthTippasani\\ECommerce\\ECommerce_Product_Management\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
