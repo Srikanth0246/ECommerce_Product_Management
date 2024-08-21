@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 62f680d3144decdc7f351eabd84592d327c3dd3c
 public class Category
 {
     public int Id { get; set; }
@@ -13,22 +16,22 @@ public class Category
 
     public void AddProduct(Product product)
     {
-        if (Products.Exists(p => p.Id == product.Id))
+        if (!Products.Exists(p => p.Id == product.Id))
         {
-            throw new ProductAlreadyExistsException("Product with this ID already exists in the category.");
+            Products.Add(product);
         }
-        Products.Add(product);
     }
 
     public void RemoveProduct(Product product)
     {
-        Products.RemoveAll(p => p.Id == product.Id);
+        Products.Remove(product);
     }
 
     public List<Product> GetProducts()
     {
-        return new List<Product>(Products);
+        return Products;
     }
+<<<<<<< HEAD
 }
 
 // public class Category{
@@ -38,3 +41,6 @@ public class Category
 //     public string Name{get; set;}
 
 // }
+=======
+}
+>>>>>>> 62f680d3144decdc7f351eabd84592d327c3dd3c

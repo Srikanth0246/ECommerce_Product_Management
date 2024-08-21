@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 public class Program
+=======
+
+﻿class Program
+>>>>>>> 62f680d3144decdc7f351eabd84592d327c3dd3c
 {
     static void Main(string[] args)
     {
@@ -227,9 +232,15 @@ public class Program
 //         TestProductManagement();
 //     }
 // }
+<<<<<<< HEAD
 // using System;
 // using System.Collections.Generic;
 // using System.Linq;
+=======
+/*using System;
+using System.Collections.Generic;
+using System.Linq;
+>>>>>>> 62f680d3144decdc7f351eabd84592d327c3dd3c
  
 // namespace ECommerceManagementApp
 // {
@@ -268,6 +279,7 @@ public class Program
 //             productManager.AddProduct(clothing);
 //             productManager.AddProduct(electronics);
  
+<<<<<<< HEAD
 //             Console.WriteLine("Displaying all products:");
 //             DisplayProductDetails(productManager);
 //         }
@@ -292,3 +304,29 @@ public class Program
  
     
 // }
+=======
+            Console.WriteLine("Displaying all products:");
+            DisplayProductDetails(productManager);
+        }
+            public static void DisplayProductDetails(ProductManager productManager)
+        {
+            var products = productManager.GetProductsByCategory(101);
+            foreach (var product in products)
+            {
+                Console.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price:C}");
+                if (product is Clothing clothing)
+                {
+                    Console.WriteLine($"  Brand: {clothing.Brand}, Model: {clothing.Model}");
+                }
+                else if (product is Electronics electronics)
+                {
+                    Console.WriteLine($"  Brand: {electronics.Brand}, Model: {electronics.Model}");
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+ 
+    
+}*/
+>>>>>>> 62f680d3144decdc7f351eabd84592d327c3dd3c
