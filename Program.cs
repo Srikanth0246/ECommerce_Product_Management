@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿class Program
 {
     static void Main(string[] args)
@@ -207,7 +207,8 @@
         {
             Console.WriteLine("Category not found.");
         }
-=======
+    }
+}
 ﻿// internal class Program
 // {
 //     public static void TestProductManagement()
@@ -227,7 +228,7 @@
 //         TestProductManagement();
 //     }
 // }
-using System;
+/*using System;
 using System.Collections.Generic;
 using System.Linq;
  
@@ -288,8 +289,7 @@ namespace ECommerceManagementApp
                 Console.WriteLine();
             }
         }
->>>>>>> 0ea0a401d63e67e36157eedd1c00105fdfc66e2a
     }
  
     
-}
+}*/
