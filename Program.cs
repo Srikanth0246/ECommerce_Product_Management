@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿class Program
+public class Program
 {
     static void Main(string[] args)
     {
@@ -207,7 +206,8 @@
         {
             Console.WriteLine("Category not found.");
         }
-=======
+    }
+}
 ﻿// internal class Program
 // {
 //     public static void TestProductManagement()
@@ -227,69 +227,68 @@
 //         TestProductManagement();
 //     }
 // }
-using System;
-using System.Collections.Generic;
-using System.Linq;
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
  
-namespace ECommerceManagementApp
-{
-    public class Program
-    {
-        public static void Main()
-        {
-            var productManager = new ProductManager();
+// namespace ECommerceManagementApp
+// {
+//     public class Program
+//     {
+//         public static void Main()
+//         {
+//             var productManager = new ProductManager();
  
-            var clothingCategory = new Category { Id = 101, Name = "Clothing" };
-            var electronicsCategory = new Category { Id = 102, Name = "Electronics" };
+//             var clothingCategory = new Category { Id = 101, Name = "Clothing" };
+//             var electronicsCategory = new Category { Id = 102, Name = "Electronics" };
  
-            productManager.AddCategory(clothingCategory);
-            productManager.AddCategory(electronicsCategory);
+//             productManager.AddCategory(clothingCategory);
+//             productManager.AddCategory(electronicsCategory);
  
-            var clothing = new Clothing
-            {
-                Id = 1,
-                Name = "T-Shirt",
-                Price = 670,
-                CategoryId = 101,
-                Brand = "US POLO",
-                Model = "XRT432"
-            };
+//             var clothing = new Clothing
+//             {
+//                 Id = 1,
+//                 Name = "T-Shirt",
+//                 Price = 670,
+//                 CategoryId = 101,
+//                 Brand = "US POLO",
+//                 Model = "XRT432"
+//             };
  
-            var electronics = new Electronics
-            {
-                Id = 2,
-                Name = "Fan",
-                Price = 564,
-                CategoryId = 178,
-                Brand = "Bajaj",
-                Model = "TSR34"
-            };
+//             var electronics = new Electronics
+//             {
+//                 Id = 2,
+//                 Name = "Fan",
+//                 Price = 564,
+//                 CategoryId = 178,
+//                 Brand = "Bajaj",
+//                 Model = "TSR34"
+//             };
  
-            productManager.AddProduct(clothing);
-            productManager.AddProduct(electronics);
+//             productManager.AddProduct(clothing);
+//             productManager.AddProduct(electronics);
  
-            Console.WriteLine("Displaying all products:");
-            DisplayProductDetails(productManager);
-        }
-            public static void DisplayProductDetails(ProductManager productManager)
-        {
-            var products = productManager.GetProductsByCategory(101);
-            foreach (var product in products)
-            {
-                Console.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price:C}");
-                if (product is Clothing clothing)
-                {
-                    Console.WriteLine($"  Brand: {clothing.Brand}, Model: {clothing.Model}");
-                }
-                else if (product is Electronics electronics)
-                {
-                    Console.WriteLine($"  Brand: {electronics.Brand}, Model: {electronics.Model}");
-                }
-                Console.WriteLine();
-            }
-        }
->>>>>>> 0ea0a401d63e67e36157eedd1c00105fdfc66e2a
-    }
+//             Console.WriteLine("Displaying all products:");
+//             DisplayProductDetails(productManager);
+//         }
+//             public static void DisplayProductDetails(ProductManager productManager)
+//         {
+//             var products = productManager.GetProductsByCategory(101);
+//             foreach (var product in products)
+//             {
+//                 Console.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price:C}");
+//                 if (product is Clothing clothing)
+//                 {
+//                     Console.WriteLine($"  Brand: {clothing.Brand}, Model: {clothing.Model}");
+//                 }
+//                 else if (product is Electronics electronics)
+//                 {
+//                     Console.WriteLine($"  Brand: {electronics.Brand}, Model: {electronics.Model}");
+//                 }
+//                 Console.WriteLine();
+//             }
+//         }
+//     }
  
     
-}
+// }

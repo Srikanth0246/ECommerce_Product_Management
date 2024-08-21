@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 public class Category
 {
     public int Id { get; set; }
@@ -29,11 +29,12 @@ public class Category
     {
         return new List<Product>(Products);
     }
-=======
-public class Category{
-    internal object product;
-
-    public int Id{get; set;}
-    public string Name{get; set;}
->>>>>>> 0ea0a401d63e67e36157eedd1c00105fdfc66e2a
 }
+
+// public class Category{
+//     internal object product;
+
+//     public int Id{get; set;}
+//     public string Name{get; set;}
+
+// }
