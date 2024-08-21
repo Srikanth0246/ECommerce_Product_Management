@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\SrikanthTippasani\ECommerce\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.exe
 C:\Users\SrikanthTippasani\ECommerce\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.deps.json
 C:\Users\SrikanthTippasani\ECommerce\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.runtimeconfig.json
@@ -13,3 +14,53 @@ C:\Users\SrikanthTippasani\ECommerce\ECommerce_Product_Management\obj\Debug\net8
 C:\Users\SrikanthTippasani\ECommerce\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.pdb
 C:\Users\SrikanthTippasani\ECommerce\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.genruntimeconfig.cache
 C:\Users\SrikanthTippasani\ECommerce\ECommerce_Product_Management\obj\Debug\net8.0\ref\ECommerce.dll
+=======
+D:\Project\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.exe
+D:\Project\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.deps.json
+D:\Project\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.runtimeconfig.json
+D:\Project\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.dll
+D:\Project\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.pdb
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.AssemblyInfoInputs.cache
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.AssemblyInfo.cs
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.csproj.CoreCompileInputs.cache
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.sourcelink.json
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.dll
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\refint\ECommerce.dll
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.pdb
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.genruntimeconfig.cache
+D:\Project\ECommerce_Product_Management-1\obj\Debug\net8.0\ref\ECommerce.dll
+<<<<<<< HEAD
+D:\Project\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.exe
+D:\Project\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.deps.json
+D:\Project\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.runtimeconfig.json
+D:\Project\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.dll
+D:\Project\ECommerce_Product_Management\bin\Debug\net8.0\ECommerce.pdb
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.AssemblyInfoInputs.cache
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.AssemblyInfo.cs
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.csproj.CoreCompileInputs.cache
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.sourcelink.json
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.dll
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\refint\ECommerce.dll
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.pdb
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ECommerce.genruntimeconfig.cache
+D:\Project\ECommerce_Product_Management\obj\Debug\net8.0\ref\ECommerce.dll
+=======
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.exe
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.deps.json
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.runtimeconfig.json
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.dll
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\bin\Debug\net8.0\ECommerce.pdb
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.AssemblyInfoInputs.cache
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.AssemblyInfo.cs
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.csproj.CoreCompileInputs.cache
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.sourcelink.json
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.dll
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\refint\ECommerce.dll
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.pdb
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ECommerce.genruntimeconfig.cache
+C:\Users\PrashanthGanegoni\Downloads\ECommerce_Product_Management-main\ECommerce_Product_Management-1\obj\Debug\net8.0\ref\ECommerce.dll
+>>>>>>> 6a39f0839623bf8f14c19f7010d061f4277bd23e
+>>>>>>> 0ea0a401d63e67e36157eedd1c00105fdfc66e2a

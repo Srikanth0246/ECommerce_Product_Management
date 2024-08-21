@@ -4,6 +4,7 @@
     private List<Category> categories = new List<Category>();
     public void AddProduct(Product product)
     {
+<<<<<<< HEAD
         if (product == null)
             throw new ArgumentNullException(nameof(product));
         if (products.Any(p => p.Id == product.Id))
@@ -12,6 +13,15 @@
         if (!categoryExists)
             throw new KeyNotFoundException("Category not found.");
         products.Add(product);
+=======
+
+        if (products.Any(p => p.Id == product.Id))
+        {
+            throw new DuplicateProductException("Product with the same ID already exists.");
+        }
+    products.Add(product);
+
+>>>>>>> 0ea0a401d63e67e36157eedd1c00105fdfc66e2a
     }
     public void UpdateProduct(Product product)
     {
@@ -30,12 +40,27 @@
         existingProduct.CategoryId = product.CategoryId;
 
     }
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 0ea0a401d63e67e36157eedd1c00105fdfc66e2a
     public void DeleteProduct(int productId)
     {
+<<<<<<< HEAD
         var product = products.Find(p => p.Id == productId);
         if (product == null)
             throw new KeyNotFoundException("Product not found.");
         products.Remove(product);
+=======
+
+       var product = products.Find(p => p.Id == productId);
+        if (product == null)
+        {
+            throw new ProductNotFoundException("Product not found.");
+        }
+        products.Remove(product);
+
+>>>>>>> 0ea0a401d63e67e36157eedd1c00105fdfc66e2a
     }
  
     public Product SearchProduct(int productId)
@@ -63,6 +88,16 @@
         categories.Add(category);
 
     }
+  public void AddCategory(Category category)
+{
+    categories.Add(category);
+}
+ 
+public List<Product> GetProductsByCategory(int categoryId)
+{
+    return products.Where(p => p.CategoryId == categoryId).ToList();
+}
+    
 
     public void UpdateCategory(Category category)
     {
