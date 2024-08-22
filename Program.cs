@@ -75,6 +75,16 @@ class Program
 
     private static void AddProduct(ProductManagementSystem system)
     {
+        Console.Write("Enter category ID for the product: ");
+        ViewCategories(system);
+        int categoryId = int.Parse(Console.ReadLine());
+        var category = system.Categories.Find(c => c.Id == categoryId);
+        if (category == null)
+        {
+            Console.WriteLine("Category not found.");
+            return;
+        }
+
         Console.Write("Enter product ID: ");
         int id = int.Parse(Console.ReadLine());
         Console.Write("Enter product name: ");
@@ -84,16 +94,6 @@ class Program
 
         var product = new Product(id, name, price);
 
-        Console.Write("Enter category ID for the product: ");
-        ViewCategories(system);
-        int categoryId = int.Parse(Console.ReadLine());
-        var category = system.Categories.Find(c => c.Id == categoryId);
-
-        if (category == null)
-        {
-            Console.WriteLine("Category not found.");
-            return;
-        }
 
         try
         {
@@ -163,7 +163,7 @@ class Program
         {
             Console.WriteLine($"Product ID: {product.Id}");
             Console.WriteLine($"Name: {product.Name}");
-            Console.WriteLine($"Price: {product.Price:C}");
+            Console.WriteLine($"Price: {product.Price}");
         }
         else
         {
@@ -194,7 +194,7 @@ class Program
             {
                 foreach (var product in products)
                 {
-                    Console.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price:C}");
+                    Console.WriteLine($"ID: {product.Id}, Name: {product.Name}, Price: {product.Price}");
                 }
             }
             else

@@ -1,7 +1,7 @@
 public class ProductManagementSystem
 {
-    public List<Category> Categories { get; set; } = new List<Category>();
-    public List<Product> Products { get; set; } = new List<Product>();
+    public List<Category> Categories = new List<Category>();
+    public List<Product> Products = new List<Product>();
 
     public void AddCategory(Category category)
     {
