@@ -1,31 +1,38 @@
+using System.Collections.Generic;
+using System.Linq;
+ 
 public class Category
 {
     public int Id { get; set; }
     public string Name { get; set; }
-    private List<Product> Products { get; set; } = new List<Product>();
-
+    private readonly List<Product> _products = new List<Product>();
+ 
     public Category(int id, string name)
     {
         Id = id;
         Name = name;
     }
-
+ 
     public void AddProduct(Product product)
     {
-        if (!Products.Exists(p => p.Id == product.Id))
+        if (!_products.Exists(p => p.Id == product.Id))
         {
-            Products.Add(product);
+            _products.Add(product);
         }
     }
-
+ 
     public void RemoveProduct(Product product)
     {
-        Products.Remove(product);
+        _products.Remove(product);
     }
-
+ 
     public List<Product> GetProducts()
     {
-        return Products;
+        return _products;
     }
-
+ 
+    public override string ToString()
+    {
+        return $"ID: {Id}, Name: {Name}";
+    }
 }
